@@ -1,0 +1,110 @@
+body {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 2.8em !important;
+}
+
+h3 {
+  font-size: 2.4em !important;
+}
+ 
+
+.imgCarousel {
+  height: 550px;
+  width: 100%;
+  max-width: 100%;
+}
+.registrationForm {
+  border: solid #777777 2px;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.presentation {
+  min-height: 500px;
+  background-color: #333;
+}
+
+.weatherApp {
+  background-color:#552D51;
+  
+}
+
+/* .weatherBackground {
+  background: url("./images/weather.jpg") !important;
+} */
+.underHeader {
+  min-height: 200px;
+  background-color: #888;
+}
+
+.footer {
+  
+  background-color: #333;
+ 
+  height: 100px;
+  width: 100%;
+ 
+}
+
+input, textarea {
+  margin-top:10px !important;
+}
+
+
+.sunnyBackground {
+  
+  background: url("./images/2.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.snowyBackground {
+ 
+  background: url("./images/4.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+ 
+.cloudyBackground {
+   
+  background: url("./images/3.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.rainyBackground {
+ 
+  background: url("./images/1.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+ 
+  @media only screen and (min-width: 1025px)  {
+    .centerByMedia {
+ 
+      margin-left: 100px !important;
+    
+    }
+  }
+
+  .mediaChanger {
+    background: #333;
+    min-height: 100vh !important;
+  }
+  
+
+  .cardEdition img {
+      width: 250 !important;
+      height: 200 !important;
+  }
